@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fce4ec;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #ff66b2;
+}
+
+.pet {
+  margin-top: 30px;
+}
+
+#petImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #ff3385;
+}

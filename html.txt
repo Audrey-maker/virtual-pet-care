@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Pet Care</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Your Virtual Pet!</h1>
+    <div class="pet">
+      <img id="petImage" src="https://via.placeholder.com/150?text=Pet" alt="Your Pet">
+      <p id="petStatus">Your pet is feeling hungry!</p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="feedPet()">Feed Pet</button>
+      <button onclick="playWithPet()">Play with Pet</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
